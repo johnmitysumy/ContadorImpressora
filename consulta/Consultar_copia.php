@@ -13,6 +13,12 @@ function contadorcopy ($ip_address){
     // Obter o contador de impressão
     $print_counter = $snmp->get($print_counter_oid);
 
+    // Remover o prefixo "Counter32" do resultado
+    $print_counter = str_replace("Counter32:", "", $print_counter);
+
+    // Converter o valor para inteiro
+    $print_counter = intval($print_counter);
+
     // Exibir o contador de impressão e o status
-    echo $print_counter . '<br>';
+    return $print_counter;
 }

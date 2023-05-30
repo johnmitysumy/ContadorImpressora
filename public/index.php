@@ -2,10 +2,10 @@
 
 date_default_timezone_set('America/Sao_Paulo');
 
-include('consulta/Consultar_copia.php');
-include('impressoras/impressoras.php');
-include('teste_ping/ping.php');
-include('conexao/envia_banco.php');
+include('../app/consulta/Consultar_copia.php');
+include('../app/impressoras/impressoras.php');
+include('../app/teste_ping/ping.php');
+include('../app/conexao/envia_banco.php');
 
 $valores = [];
 

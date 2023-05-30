@@ -2,7 +2,7 @@
 
 function enviarValorParaBanco($valor, $contador) {
     // Configurações de conexão com o banco de dados
-    include('conexao/db.php');
+    include('../app/conexao/db.php');
     
     //date agora
     $date = date('Y-m-d H:i:s');

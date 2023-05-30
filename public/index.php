@@ -22,7 +22,7 @@ foreach($ip_impressoras as $ip){
         continue;
     }
 }
-
+echo "Ultima Atualização : " . date('Y-m-d H:i:s');
 ?>
 <script>
   setTimeout(function() {

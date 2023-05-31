@@ -1,0 +1,24 @@
+.title-painel{
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.box-title-ip{
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.fundo-box{
+    background-color: #dfeaf5;
+    border: solid 2px;
+    padding: 5px;
+    margin: 7px;
+}
+
+.contador-box{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 230, 0);
+}

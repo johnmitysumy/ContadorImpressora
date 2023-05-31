@@ -50,3 +50,9 @@ include('../app/consulta/Consultar_copia.php'); ?>
  
 </body>
 </html>
+
+<script>
+  setTimeout(function() {
+    location.reload();
+  }, 120000); // 2 minutos em milissegundos
+</script>
